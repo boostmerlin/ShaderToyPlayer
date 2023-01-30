@@ -1,0 +1,16 @@
+# Rules in this file were initially inferred by Visual Studio IntelliCode from the E:\work\unity-project\ShaderToyTest\Assets\ codebase based on best match to current usage at 2023/1/11
+# You can modify the rules from these initially generated values to suit your own policies
+# You can learn more about editorconfig here: https://docs.microsoft.com/en-us/visualstudio/ide/editorconfig-code-style-settings-reference
+[*]
+
+# 将缩进方式设置为4个空格
+indent_style = space
+indent_size = 4
+
+# 文件编码格式 UTF-8
+charset = utf-8
+
+end_of_line = lf
+
+# 文件结尾添加换行符，以防警告
+insert_final_newline = true

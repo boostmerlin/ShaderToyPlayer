@@ -37,7 +37,7 @@ public class DebugShaderPropertyEditor : Editor {
 
         if (EditorGUI.EndChangeCheck())
         {
-            dsp.SetDirty(true);
+            dsp.showDebugInfo();
         }
     }
 }
