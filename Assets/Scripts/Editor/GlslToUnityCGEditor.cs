@@ -236,7 +236,7 @@ public class GlslToUnityCGEditor : EditorWindow
         var shader = Shader.Find(shaderName);
         if (shader == null)
         {
-            Debug.LogError("no shader found: " + name);
+            Debug.LogError("no shader found: " + shaderName);
             return null;
         }
         var material = new Material(shader);

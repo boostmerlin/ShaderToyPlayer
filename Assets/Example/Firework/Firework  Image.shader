@@ -90,7 +90,7 @@ Shader "Shadertoy/Firework  Image" {
     }
 
 
-    vec4 mainImage(vec2 fragCoord) {
+    vec4 mainImage(in vec2 fragCoord) {
 
         // Normalized pixel coordinates (from 0 to 1)
         vec2 uv = (fragCoord - .5 * iResolution.xy) / iResolution.y;
